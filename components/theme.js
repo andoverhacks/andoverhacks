@@ -24,22 +24,9 @@ export const palette = {
   // brand
   primary: '#ffb400',
   primaryWash: '#ffdc89',
-  /*
-  alt: '#007a87',
-  altWash: '#bfe6ea',
-  altWashLight: '#dffbfd',
-  altLight: '#009aab',
-  altDark: '#004f58',
-  accent: '#ff5a5f',
-  accentLight: '#ff7e82',
-  accentWash: '#ffd4d5',
-  accentDark: '#e00007',
-  success: '#3fb34f',
-  error: '#b23f42',
-  cool: '#00bdde',
-  coolWash: '#7cecff'
-  */
-  alt: '#13cfbf',
+
+
+  alt: '#0e3496',
   altDark: '#05386b',
   altLight: '#6ed5fa',
   altWash: '#379683',
@@ -90,7 +77,7 @@ const theme = merge(base, {
   },
   fonts: {
     body:
-      'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+      'Libre Baskerville, Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: 'inherit',
     mono: 'Menlo, monospace'
   },

@@ -13,6 +13,12 @@ const data = {
       image:
         'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
     },
+    {
+      name: 'SpaceX',
+      link: 'https://spacex.com/',
+      image: 
+        'https://andover.angelhacks.org/static/old-profiles/spacex-logo.png'
+    },
   ],
   additionalSupport: [
     {
@@ -20,6 +26,12 @@ const data = {
       link: 'https://stickermule.com/',
       image: 
         'https://angelhacks.org/static/stickermule-logo.png'
+    },
+    {
+      name: 'Repl.it',
+      link: 'https://repl.it/',
+      image: 
+        'https://andover.angelhacks.org/static/old-profiles/replit-logo.png'
     },
   ]
 }
