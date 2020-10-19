@@ -53,19 +53,20 @@ export default props => {
           color: 'primary',
           alignItems: 'center',
           px: 3,
-          py: 3
+          py: 3,
+          fontFamily: 'Nunito'
         }}
       >
-        <Avatar light size={60} sx={{ mr: 1 }} />
+        <Avatar light size={60} sx={{ mr: 1, fontFamily: 'Nunito' }} />
         <Link href="/">
           <A
             variant="styles.navitem"
-            sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
+            sx={{ display: ['none', 'block'], fontWeight: 'mediumbold', fontFamily: 'Nunito'}}
           >
             AngelHacks
           </A>
         </Link>
-        <Box sx={{ mx: 'auto' }} />
+        <Box sx={{ mx: 'auto', fontFamily: 'Nunito' }} />
         <Link href="/schedule">
           <A variant="styles.navitem">Schedule</A>
         </Link>
@@ -74,6 +75,12 @@ export default props => {
         </Link>
         <Link href="/about">
           <A variant="styles.navitem">About</A>
+        </Link>
+        <Link href="https://angelhacks.org">
+          <A variant="styles.navitem">Official</A>
+        </Link>
+        <Link href="https://2019.angelhacks.org">
+          <A variant="styles.navitem">2019 Site</A>
         </Link>
         <ColorButton
           sx={{ ml: [2, 3] }}
